@@ -1,0 +1,40 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=final_project
+[Library]
+final_project=.\final_project\final_project.lib
+[$LibMap$]
+final_project=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/models.vhd=-1
+/wave-form.asdb=-1
+/wave-form.awc=-1
+/main.asdb=-1
+/main.awc=-1
+TestBench/models_TB.vhd=-1
+TestBench/models_TB_runtest.do=-1
+[Files.Data]
+.\src\models.vhd=VHDL Source Code
+.\src\wave-form.asdb=Accelerated Waveform File
+.\src\wave-form.awc=Accelerated Waveform Configuration
+.\src\main.asdb=Accelerated Waveform File
+.\src\main.awc=Accelerated Waveform Configuration
+.\src\TestBench\models_TB.vhd=VHDL Test Bench
+.\src\TestBench\models_TB_runtest.do=Macro
+[HierarchyViewer]
+HierarchyInformation=models_tb|TB_ARCHITECTURE|0
+ShowHide=ShowTopLevel
+Selected=
+[Groups]
+TestBench=1
